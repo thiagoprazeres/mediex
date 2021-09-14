@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build -c production && npm run scully -- --nw --scanRoutes",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "scully": "npx scully --",
@@ -25,6 +26,9 @@
     "@scullyio/init": "^1.1.4",
     "@scullyio/ng-lib": "^1.0.0",
     "@scullyio/scully": "^1.0.0",
+    "bootstrap": "^5.1.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
