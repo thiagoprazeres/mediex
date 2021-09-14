@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MatButtonModule } from '@angular/material/button';
     ScullyLibModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
