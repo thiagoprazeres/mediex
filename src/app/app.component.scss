@@ -1,0 +1,32 @@
+img.imagem-servicos {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 2px 16px 0px #ccc;
+}
+h2.mat-title {
+    color: #143a63;
+}
+h3.mat-subheading-2 {
+    font-weight: bold;
+    color: #143a63;
+}
+footer {
+    color: #363636;
+    border-top: 3px solid #ccc;
+}
+footer > div > p > a {
+    font-size: 2em;
+    text-decoration: none;
+}
+i.fa-external-link-alt {
+    font-size: 0.5em;
+}
+#endereco h1 {
+    color: #143a63;
+}
+#endereco a {
+    text-decoration: none;
+}
+#endereco a:hover {
+    text-decoration: underline;
+}
